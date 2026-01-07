@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(245, 236, 235);
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header layout */
+header {
+    display: flex;
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #222;  
+}
+
+/* Logo styling */
+#logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Nav links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+nav a:hover {
+    color: orange;
+}
+.about-section, .team-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-section h1, .team-section h2 {
+    color: #222;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background: #e393d7;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.member h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
