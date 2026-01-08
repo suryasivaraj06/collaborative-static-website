@@ -10,16 +10,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header layout */
+
 header {
     display: flex;
-    justify-content: space-between; /* logo left, nav right */
+    justify-content: space-between; 
     align-items: center;
     padding: 15px 40px;
     background-color: #222;  
 }
 
-/* Logo styling */
+
 #logo {
     color: white;
     font-size: 24px;
@@ -28,7 +28,7 @@ header {
 }
 
 
-/* Nav links */
+
 nav a {
     color: white;
     text-decoration: none;
@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .member {
-    background: #e393d7;
+    background: #af93f0;
     padding: 20px;
     width: 250px;
     border-radius: 8px;
@@ -75,4 +75,32 @@ nav a:hover {
     margin-bottom: 10px;
     color: #333;
 }
+.step {
+    background-color: #f4f6f8;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+  }
+  .git-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .git-text {
+    width: 30%;
+  }
+  
+  .git-image {
+    width: 50%;
+  }
+  
+  .git-image img {
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
 
